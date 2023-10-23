@@ -48,7 +48,7 @@ train1[f'Train car #{traincar2.number}'] = traincar2.places
 traincar1[f'Place {passenger1.place}'] = {'place': passenger1.place,'passenger_name': passenger1.passanger_name, 'departure': passenger1.departure, 'destination': passenger1.destination}
 traincar2[f'Place {passenger2.place}'] = {'place': passenger2.place,'passenger_name': passenger2.passanger_name, 'departure': passenger2.departure, 'destination': passenger2.destination}
 traincar1[f'Place {passenger3.place}'] = {'place': passenger3.place,'passenger_name': passenger3.passanger_name, 'departure': passenger3.departure, 'destination': passenger3.destination}
-pprint.pprint(train1.traincars)
 
+pprint.pprint(train1.traincars)
 print(f"Number of train cars: {len(train1)}")
 print(f"Number of passenger in train car #{traincar1.number}: {len(traincar1)}")
